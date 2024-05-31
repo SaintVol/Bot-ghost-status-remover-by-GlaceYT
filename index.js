@@ -1,4 +1,3 @@
-l
 /**
  ██████╗░████████╗██╗░░██╗           
  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
@@ -37,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Playing Da Tondo!","Made by Saintvol","Da Tondo on Top!"];
+const statusMessages = ["Watching Da Tondo!", "Made by Saintvol"];
 
 
 let currentIndex = 0;
@@ -93,8 +92,8 @@ function updateStatusAndSendMessages() {
 
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    DON'T FORGET TO DO THIS EVERYTIMES`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    YOU ARE FAILURE, KEEP CHANGING EVERYTIMES AND PRAY TO ALLAH`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HAPPY NEW YEAR MY DEAR FAMILY`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO 2024`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
