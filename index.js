@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching Da Tondo!", "Made by Saintvol"];
+const statusMessages = ["Watching Vascos British Army!", "Made by Saintvol"];
 
 
 let currentIndex = 0;
